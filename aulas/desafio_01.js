@@ -5,13 +5,12 @@ let nivel = ""// declara o nível como vazio, antes dos testes
     if (XP<1000){
     nivel = "Ferro"
     }
-    else if (XP>= 1001 && XP<=2000){
+    else if (XP >= 1001 && XP <= 2000){
     nivel = "Bronze"
     }
-    else if (XP>= 20001 && XP <= 5000){
+    else if (XP >= 20001 && XP <= 5000){
     nivel = "Prata"
     }
-    
     else if (XP >= 5001 && XP <= 7000){
     nivel = "Ouro"
     }
