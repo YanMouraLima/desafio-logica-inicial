@@ -34,4 +34,4 @@ let nivel = ""// declara o nível como vazio, antes dos testes
     }
 
 // Saída
-console.log ("O Herói de nome " + nome + " está no nível " + nivel )// saída
+console.log ("O Herói de nome " + nome + " está no nível " + nivel )// mensagem de saída
