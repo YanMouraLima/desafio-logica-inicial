@@ -1,8 +1,14 @@
-let nome = "Superman" // declara nome do herói
+// Projeto: Desafio Classificador de nível de Herói
+// Data: 03/08/2025
+// Estudante: Yan Moura Lima
+
+// Variáveis
+let nome = "Superman" // declara o nome do herói
 let XP = 10002 // declara o nível de experiência do herói
 let nivel = ""// declara o nível como vazio, antes dos testes
 
-    if (XP<1000){
+// Testes
+    if (XP < 1000){
     nivel = "Ferro"
     }
     else if (XP >= 1001 && XP <= 2000){
@@ -23,11 +29,9 @@ let nivel = ""// declara o nível como vazio, antes dos testes
     else if (XP >= 9001 && XP <= 10000){
     nivel = "Imortal"
     }
-    else if (XP >= 9001 && XP <= 10000){
-    nivel = "Imortal"
-    }
     else {
     nivel = "Radiante"
     }
 
+// Saída
 console.log ("O Herói de nome " + nome + " está no nível " + nivel )// saída
