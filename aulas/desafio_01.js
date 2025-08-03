@@ -4,11 +4,11 @@
 
 // Variáveis
 let nome = "Superman" // declara o nome do herói
-let XP = 10002 // declara o nível de experiência do herói
+let XP =789// declara o nível de experiência do herói
 let nivel = ""// declara o nível como vazio, antes dos testes
 
 // Testes
-    if (XP < 1000){
+    if (XP <= 1000){
     nivel = "Ferro"
     }
     else if (XP >= 1001 && XP <= 2000){
