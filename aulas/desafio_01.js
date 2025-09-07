@@ -1,6 +1,8 @@
+// Curso: Formação Lógica de Programação - DIO
 // Projeto: Desafio Classificador de nível de Herói
-// Data: 03/08/2025
 // Estudante: Yan Moura Lima
+// Data: 03/08/2025
+
 
 // Variáveis
 let nome = "Superman" // declara o nome do herói
